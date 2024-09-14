@@ -3,8 +3,8 @@
 if( isset( $_POST['wpcmp_submit_for_create_posts'] ) )
 {
 	if (
-	    ! isset( $_POST['wpcmp_nonce'] )
-	    || ! wp_verify_nonce( $_POST['wpcmp_nonce'], 'wpcmp_create_posts' )
+		! isset( $_POST['wpcmp_nonce'] )
+		|| ! wp_verify_nonce( $_POST['wpcmp_nonce'], 'wpcmp_create_posts' )
 	)
 	{
 	   print 'Sorry, your nonce did not verify.'; exit;
@@ -48,7 +48,7 @@ if( isset( $_POST['wpcmp_submit_for_create_posts'] ) )
 
 				if( ! is_wp_error( $post_id ) )
 				{
-				 	//the post is valid
+					//the post is valid
 					$wpcmp_show_message = 'success';
 					
 					$created_posts[] = $post_id;

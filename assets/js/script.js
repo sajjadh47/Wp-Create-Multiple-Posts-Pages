@@ -1,8 +1,8 @@
 jQuery( document ).ready( function( $ )
 {
-	$( ".new_line_number" ).linedtextarea({
+	$( ".new_line_number" ).linedtextarea( {
 		selectedLine: 1
-	});
+	} );
 
 	$( "#wpcmp_new_post_category" ).select2();
 
@@ -16,11 +16,11 @@ jQuery( document ).ready( function( $ )
 		{
 			$( "#wpcmp_new_post_category" ).removeAttr( 'disabled' );
 		}
-	});
+	} );
 
 	$( "#wpcmp_posts_titles" ).keyup( function( event )
 	{
-		if ( $(this).val() == '' )
+		if ( $( this ).val() == '' )
 		{
 			$( "#wpcmp_new_post_type" ).prop( 'disabled', 'disabled' );
 			
@@ -44,5 +44,5 @@ jQuery( document ).ready( function( $ )
 			
 			$( "#wpcmp_submit_for_create_posts" ).removeAttr( 'disabled' );
 		}
-	});
-});
+	} );
+} );

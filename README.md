@@ -3,8 +3,8 @@
 **Contributors:** sajjad67 \
 **Tags:** post,create-post,edit-post,multiple-post,page,edit-page,multiple-page,create-page \
 **Requires at least:** 5.6 \
-**Tested up to:** 6.0 \
-**Stable tag:** 1.0.5 \
+**Tested up to:** 6.6 \
+**Stable tag:** 1.0.7 \
 **License:** GPLv2 \
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -64,6 +64,14 @@ Insert you posts / pages title in each line and set type - status - category and
 ![After Posts Created Screen.](https://ps.w.org/wp-create-multiple-posts-pages/assets/screenshot-2.png)
 
 ## Changelog
+
+### 1.0.7
+
+- Updated code for latest version wp support
+
+### 1.0.6
+
+- Updated code for latest version wp support
 
 ### 1.0.5
 

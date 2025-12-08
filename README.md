@@ -3,7 +3,7 @@
 [![Plugin Banner](https://ps.w.org/wp-create-multiple-posts-pages/assets/banner-772x250.png)](https://wordpress.org/plugins/wp-create-multiple-posts-pages/)
 
 **Tags:** post, create-post, edit-post, multiple-post, page, edit-page, multiple-page, create-page \
-**Tested up to:** 6.8 \
+**Tested up to:** 6.9 \
 **Requires PHP:** 8.0
 
 Easily Create Multiple Wordpress Posts & Pages At Once With a Single Click.
@@ -63,6 +63,9 @@ Insert you posts / pages title in each line and set type - status - category and
 ![After Posts Created Screen.](https://ps.w.org/wp-create-multiple-posts-pages/assets/screenshot-3.png)
 
 ## Changelog
+
+### 2.0.3
+- Checked for latest wp version 6.9
 
 ### 2.0.2
 - Checked for latest wp version 6.8

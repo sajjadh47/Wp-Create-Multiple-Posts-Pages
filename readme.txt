@@ -2,9 +2,9 @@
 Tags: create-post, edit-post, multiple-post, multiple-page, create-page
 Contributors: sajjad67
 Author: Sajjad Hossain Sagor
-Tested up to: 6.9
+Tested up to: 7.0
 Requires at least: 5.6
-Stable tag: 2.0.3
+Stable tag: 2.0.4
 Requires PHP: 8.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -50,7 +50,10 @@ Insert you posts / pages title in each line and set type - status - category and
 1. Posts Creation Panel.
 2. Before Posts Created Screen.
 3. After Posts Created Screen.
+
 == Changelog ==
+= 2.0.4 =
+- Compatibility checkup for latest wp version 7.0
 = 2.0.3 =
 - Checked for latest wp version 6.9
 = 2.0.2 =
